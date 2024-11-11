@@ -111,11 +111,11 @@ public class AutoBoxColliderTool : EditorWindow
 
         int startX = int.MaxValue, startY = int.MaxValue, endX = int.MinValue, endY = int.MinValue;
         
-        for (int x = (int)spriteRect.x; x < spriteRect.x + spriteRect.width; x++)
+        for (int x = 0; x < (int)spriteRect.width; x++)
         {
-            for (int y = (int)spriteRect.y; y < spriteRect.y + spriteRect.height; y++)
+            for (int y = 0; y < (int)spriteRect.height; y++)
             {
-                Color pixel = texture.GetPixel(x, y);
+                Color pixel = sprite.texture.GetPixel((int)spriteRect.x + x, (int)spriteRect.y + y);
                 if (pixel.a > 0)
                 {
                     startX = Mathf.Min(startX, x);
