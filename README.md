@@ -6,7 +6,6 @@ https://github.com/user-attachments/assets/bbcb5b31-7c97-4a0a-a95a-cbdf3f26b7f1
 
 ## 📄 설명
 **`스프라이트 영역에 맞게 박스 콜라이더 2D를 자동 생성 및 설정해주는 툴`** </br>
-**`※ 현재는 아틀라스가 아닌 단일 스프라이트에서만 작동`**
 
 ## ⚒️ 사용 방법
 
